@@ -5914,7 +5914,7 @@ var navbar = function navbar() {
     className: "navbar",
     role: "navigation",
     "aria-label": ""
-  }, "wd");
+  }, "wddwedew");
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (navbar);
