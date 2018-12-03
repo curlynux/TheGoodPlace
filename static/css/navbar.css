@@ -1,0 +1,9 @@
+@font-face {
+	font-family: "Chlakh Regular";
+	src: url("/static/fonts/chlakhRegular.ttf") format("ttf");
+}
+
+a {
+	color: orange;
+	font-family: "Chlakh Regular", tahoma, monospace;
+}

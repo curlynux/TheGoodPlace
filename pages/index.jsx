@@ -3,7 +3,7 @@ import Navbar from "./components/header/navbar"
 
 var blaze = "curlynux";
 var tst = () => (
-  <div>
+  <div className="container">
     <Head />
     <Navbar />
     <h1 className="title">{blaze}</h1>
