@@ -3,6 +3,7 @@
   "ignore": ["node_modules", ".next", ".git"],
   "watch": [
     "pages/**/*",
+    "pages/components/**/**/*",
     "server.js",
     "next.config.js"
   ],

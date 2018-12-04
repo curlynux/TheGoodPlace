@@ -1,9 +1,6 @@
 @font-face {
 	font-family: "Chlakh Regular";
-	src: url("/static/fonts/chlakhRegular.ttf") format("ttf");
+	src: url("/static/fonts/chlakhRegular.ttf");
 }
 
-a {
-	color: orange;
-	font-family: "Chlakh Regular", tahoma, monospace;
-}
+.navbar-brand a {font-family: "Chlakh Regular";}
