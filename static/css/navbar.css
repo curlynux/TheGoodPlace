@@ -3,4 +3,29 @@
 	src: url("/static/fonts/chlakhRegular.ttf");
 }
 
-.navbar-brand a {font-family: "Chlakh Regular";}
+@font-face {
+	font-family: "Bubbleboddy Fat";
+	src: url("/static/fonts/Bubbleboddy-FatTrial.ttf");
+}
+
+@font-face {
+	font-family: "Sonorous";
+	src: url("/static/fonts/Sonorous/Sonorous.otf");
+}
+
+@font-face {
+	font-family: "Aoki_Regular";
+	src: url("/static/fonts/Aoki/Aoki_Regular.otf");
+}
+
+@font-face {
+	font-family: "Reef";
+	src: url("/static/fonts/Reef.otf");
+}
+
+.navbar-brand a {
+	font-family: "Reef", "Aoki_Regular", "Sonorous", "Bubbleboddy Fat", "Chlakh Regular";
+	text-align: center;
+	color: green;
+	font-size: 2rem;
+}
